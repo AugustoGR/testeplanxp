@@ -1,0 +1,289 @@
+
+/*Menu styles*/
+.menu-container{
+    position: fixed;
+    float: left;
+    background-color: rgb(30, 30, 30);
+    width: 15%;
+    height: 100vh;
+    border-right: 1px solid;
+    border-color: rgb(62, 62, 62);
+}
+.menu-bottombutton{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    border-top: 1px solid;
+    border-color: rgb(62, 62, 62);
+    padding-left: 15%;
+    
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+.menu-navigationbar{
+    width: 100%;
+    height: 60%;
+    padding-left: 15%;
+}
+.menu-textbuttons{
+    position: static;
+    z-index:1;
+    font-size: 15px;
+    color: rgb(216, 216, 216);
+}
+.menu-buttons{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+.background-button{
+    position: absolute;
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(41, 41, 41);
+}
+#logo{
+    width: 60%;
+}
+#text-bottombutton{
+    color: rgb(86, 86, 86);
+    font-size: 20px;
+    width: 150px;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+#arrowbot{
+width: 10px;
+position: absolute;
+right: 10%;
+bottom: 2%;
+}
+
+
+/*Pages styles*/
+.page-container{
+    float: right;
+    width: 85%;
+}
+.pages{
+    padding-left: 5%;
+    padding-right: 2%;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(30, 30, 30);
+}
+.text-whatwedo{
+    width: 50%;
+    padding-right: 20px;
+}
+.title-text{
+    position: relative;
+    z-index: 1;
+    font-size: 30px;
+    color: rgb(150,150,150);
+}
+.grid-whatwedo{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    width: 50%;
+}
+.cards-whatwedo{
+    padding: 5px;
+    width: 100%;
+}
+.grid-img{
+    width: 100%;
+}
+.text{
+    color: rgb(226,226,226);
+    font-size: 12px;
+    line-height: 20px;
+}
+.linkcardnews{
+ padding-left: 5%;
+}
+#text-joystick{
+    padding-top: 38%;
+    padding-bottom: 20%;
+    color: white;
+}
+#container-joysticksvg{
+    width: 100%;
+    height: 0;
+    padding-top: 65%;
+    display: flex;
+}
+#joysticksvg{
+    width: 50%;
+    margin-top: auto;
+}
+#pagetitle{
+    position: relative;
+    z-index: 1;
+    padding-top: 22px;
+}
+#page-backgroundnumber{
+    position: absolute;
+    font-size: 80px;
+}
+#subtitle{
+    padding: 10px 0;
+    font-size: 20px;
+}
+#subtitletwo{
+    padding: 10px 0;
+    font-size: 14px;
+}
+#what-we-do{
+    display: flex;
+    padding-top: 10%;
+}
+#news{
+    padding-top: 10%;
+    border: solid;
+}
+.text-cardnews{
+    margin-top: 0;
+    width: 100%;
+    height: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.cards-news{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(42, 42, 42);
+}
+.imgcardsnews{
+    width: 100%;
+    position: relative;
+}
+.imagecut{
+    position: absolute;
+    right:0;
+    width:0;
+    height:0;
+    border: 35px solid;
+    border-color: rgb(30, 30, 30) rgb(30, 30, 30) transparent transparent;
+}
+.image-cardsnews{
+    width: 100%;
+}
+.vrglasses{
+    position: absolute;
+    right: 0;
+    z-index: 1;
+
+}
+#grid-news{
+    display: grid;
+    grid-template-columns: repeat(5,18.5%);
+    justify-content: space-between;
+    margin-top: 3%;
+    width: 100%;
+    height: 400px;
+}
+#contact{
+    display: flex;
+    padding-top: 10%;
+}
+#container-number{
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+#container-formcontact{
+    width: 45%;
+    height: 100%;
+}
+#pagetitlenews{
+    position: relative;
+    z-index: 1;
+    padding-top: 22px;
+}
+.grid-contact{
+    margin-left: 3%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    width: 50%;
+}
+.cards-contact{
+    width: 100%;
+}
+.container-input{
+    position:relative;
+    width:100%;
+    color:rgb(62, 62, 62);
+    border: 1px solid rgba(70, 70, 70);
+    background-color: transparent;
+    margin-bottom: 5%;
+}
+.corner{ 
+    border-bottom: 1px solid rgba(70, 70, 70);
+    width:20px; 
+    height: 21px; 
+    position:absolute;
+    top:-11px;
+    right:-10px;
+    z-index:2;
+    background:rgb(30, 30, 30);
+    
+    /* Safari */
+    -webkit-transform: rotate(45deg);    
+    /* Firefox */
+    -moz-transform: rotate(45deg);    
+    /* IE */
+    -ms-transform: rotate(45deg);    
+    /* Opera */
+    -o-transform: rotate(45deg);
+}
+#label-inputemail{
+    float: left;
+    width: 48%;
+}
+#label-inputtel{
+    float: right;
+    width: 48%;
+}
+#input-mes{
+    height:100px
+}
+#form{
+    padding-top: 4%;
+}
+.textcardnews{
+    color: rgb(150,150,150);
+    font-size: 17px;
+    padding:3% 0;
+}
+.title-card{
+    color: rgb(150,150,150);
+    font-size: 20px;
+}
+.textcard{
+    color: rgb(226,226,226);
+}
+.title-text{
+    font-size: 30px;
+}
+.impname{
+    padding: 4px;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline;
+    width: auto;
+    color: rgb(42, 42, 42);
+    background-color: rgb(150,150,150);
+}
+.boldtextcardfour{
+    font-size: 20px;
+}
