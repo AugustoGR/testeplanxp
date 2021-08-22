@@ -1,0 +1,47 @@
+.text-whatwedo{
+    width: 50%;
+    padding-right: 20px;
+}
+.grid-whatwedo{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    width: 50%;
+}
+.cards-whatwedo{
+    padding: 5px;
+    width: 100%;
+}
+.linkcardnews{
+    padding-left: 5%;
+}
+.grid-img{
+    width: 100%;
+}
+.boldtextcardfour{
+    font-size: 20px;
+}
+#text-joystick{
+    padding-top: 38%;
+    padding-bottom: 20%;
+}
+#container-joysticksvg{
+    width: 100%;
+    padding-top: 65%;
+    display: flex;
+}
+#joysticksvg{
+    width: 50%;
+    margin-top: auto;
+}
+#what-we-do{
+    display: flex;
+    padding-top: 10%;
+}
+#subtitle{
+    padding: 10px 0;
+    font-size: 20px;
+}
+#subtitletwo{
+    padding: 10px 0;
+    font-size: 14px;
+}

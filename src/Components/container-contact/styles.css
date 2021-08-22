@@ -1,0 +1,68 @@
+.container-input{
+    position:relative;
+    width:100%;
+    color:rgb(62, 62, 62);
+    border: 1px solid rgba(70, 70, 70);
+    background-color: transparent;
+    margin-bottom: 5%;
+}
+.grid-contact{
+    margin-left: 3%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    width: 50%;
+}
+.cards-contact{
+    width: 100%;
+}
+.corner{ 
+    border-bottom: 1px solid rgba(70, 70, 70);
+    width:20px; 
+    height: 21px; 
+    position:absolute;
+    top:-11px;
+    right:-10px;
+    z-index:2;
+    background:rgb(30, 30, 30);
+    
+    /* Safari */
+    -webkit-transform: rotate(45deg);    
+    /* Firefox */
+    -moz-transform: rotate(45deg);    
+    /* IE */
+    -ms-transform: rotate(45deg);    
+    /* Opera */
+    -o-transform: rotate(45deg);
+}
+.title-card{
+    color: rgb(150,150,150);
+    font-size: 20px;
+}
+#contact{
+    display: flex;
+    padding-top: 10%;
+}
+#label-inputemail{
+    float: left;
+    width: 48%;
+}
+#label-inputtel{
+    float: right;
+    width: 48%;
+}
+#input-mes{
+    height:100px
+}
+#form{
+    padding-top: 4%;
+}
+#container-formcontact{
+    width: 45%;
+    height: 100%;
+}
+#container-number{
+    display: flex;
+    align-items: center;
+    height: 80px;
+}

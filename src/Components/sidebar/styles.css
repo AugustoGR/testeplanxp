@@ -1,0 +1,65 @@
+/*Menu styles*/
+.menu-container{
+    position: fixed;
+    float: left;
+    background-color: rgb(30, 30, 30);
+    width: 15%;
+    height: 100vh;
+    border-right: 1px solid;
+    border-color: rgb(62, 62, 62);
+}
+.menu-bottombutton{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    border-top: 1px solid;
+    border-color: rgb(62, 62, 62);
+    padding-left: 15%;
+    
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+.menu-navigationbar{
+    width: 100%;
+    height: 60%;
+    padding-left: 15%;
+}
+.menu-textbuttons{
+    position: static;
+    z-index:1;
+    font-size: 15px;
+    color: rgb(216, 216, 216);
+}
+.menu-buttons{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+.background-button{
+    position: absolute;
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(41, 41, 41);
+}
+#logo{
+    width: 60%;
+}
+#text-bottombutton{
+    color: rgb(86, 86, 86);
+    font-size: 20px;
+    width: 150px;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+#arrowbot{
+width: 10px;
+position: absolute;
+right: 10%;
+bottom: 2%;
+}
