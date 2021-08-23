@@ -14,9 +14,12 @@ import shape2 from '../../Assets/Shape2.svg';
 export default function News(){
     return(
         <div className="pages" id="news">
-                <h1 className="background-button" id="page-backgroundnumber">03.</h1>
-                <h3 className='menu-textbuttons' id="pagetitlenews">/Plan news</h3>
-                <h1 className='title-text'>/Cases Games</h1>
+                <div id="container-headernews">
+                    <h1 className="backgroundnumber page-backgroundnumber">03.</h1>
+                    <h3 className='pagetitle page-pagetitle'>/Plan news</h3>
+                    <h1 className='title-text'>/Cases Games</h1>
+                    <Link className="link" id="linkheader"><p className="link-text">CLIQUE AQUI PARA VER TODO O BLOG <img alt="" src={shape2} /></p></Link>
+                </div>
                 <div id='grid-news'>
                     <div className="cards-news">
                         <div className='imgcardsnews'>
@@ -26,7 +29,7 @@ export default function News(){
                         </div>
                         <div className="text-cardnews">
                             <h4 className="empname">SKA</h4>
-                            <h3 className='textcardnews'>Plan cria o novo site da SKA</h3>
+                            <h3 className='titlecardnews'>Plan cria o novo site da SKA</h3>
                             <p className='text'>Aliquam ullamcorper augue a ligula aliquam rhoncus. Nullam accumsan auctor elementum Nam fermentum mattis ligula vulputate bibendum...</p>
                         </div>
                         <Link className="link linkcardnews"><p className="link-text">SAIBA MAIS <img alt="" src={shape2} /></p></Link>
@@ -39,7 +42,7 @@ export default function News(){
                         </div>
                         <div className="text-cardnews">
                             <h4 className="empname">TINTAS KILLING</h4>
-                            <h3 className='textcardnews'>Plan cria o novo site da Tintas Killing</h3>
+                            <h3 className='titlecardnews'>Plan cria o novo site da Tintas Killing</h3>
                             <p className='text textcard'>Aliquam ullamcorper augue a ligula aliquam rhoncus. Nullam accumsan auctor elementum Nam fermentum mattis ligula vulputate bibendum...</p>
                         </div>
                         <Link className="link linkcardnews"><p className="link-text">SAIBA MAIS <img alt="" src={shape2} /></p></Link>
@@ -52,7 +55,7 @@ export default function News(){
                         </div>
                         <div className="text-cardnews">
                             <h4 className="empname">CARGO BR</h4>
-                            <h3 className='textcardnews'>Estamos desenvolvendo o novo site da CargoBR</h3>
+                            <h3 className='titlecardnews'>Estamos desenvolvendo o novo site da CargoBR</h3>
                             <p className='text textcard'>Aliquam ullamcorper augue a ligula aliquam rhoncus. Nullam accumsan auctor elementum Nam ferment...</p>
                         </div>
                         <Link className="link linkcardnews"><p className="link-text">SAIBA MAIS <img alt="" src={shape2} /></p></Link>
@@ -65,7 +68,7 @@ export default function News(){
                         </div>
                         <div className="text-cardnews">
                             <h4 className="empname">XALINGO</h4>
-                            <h3 className='textcardnews'>Clubinho Xalingo com novidades</h3>
+                            <h3 className='titlecardnews'>Clubinho Xalingo com novidades</h3>
                             <p className='text textcard'>Curabitur vitae tellus volutpat, imperdiet est nec, efficitur mi. Cras pellentesque ultricies diam at dictum. Cras pellentesque...</p>
                         </div>
                         <Link className="link linkcardnews"><p className="link-text">SAIBA MAIS <img alt="" src={shape2} /></p></Link>
@@ -78,7 +81,7 @@ export default function News(){
                         </div>
                         <div className="text-cardnews">
                             <h4 className="empname">AROMATIC</h4>
-                            <h3 className='textcardnews'>Novo site da Aromatic no ar</h3>
+                            <h3 className='titlecardnews'>Novo site da Aromatic no ar</h3>
                             <p className='text textcard'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibed um urna leo, at consectetur consectetur  lorem viverra...</p>
                         </div>
                         <Link className="link linkcardnews"><p className="link-text">SAIBA MAIS <img alt="" src={shape2} /></p></Link>

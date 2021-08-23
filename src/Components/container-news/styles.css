@@ -41,6 +41,26 @@
     right: 0;
     z-index: 1;
 }
+.titlecardnews{
+    color: rgb(150,150,150);
+    font-size: 17px;
+    padding:3% 0;
+}
+.textcard{
+    color: rgb(226,226,226);
+}
+
+#linkheader{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
+
+#container-headernews{
+    width: 50%;
+    position: relative;
+}
 #news{
     padding-top: 10%;
 }
@@ -51,17 +71,4 @@
     margin-top: 3%;
     width: 100%;
     height: 400px;
-}
-#pagetitlenews{
-    position: relative;
-    z-index: 1;
-    padding-top: 22px;
-}
-.textcardnews{
-    color: rgb(150,150,150);
-    font-size: 17px;
-    padding:3% 0;
-}
-.textcard{
-    color: rgb(226,226,226);
 }

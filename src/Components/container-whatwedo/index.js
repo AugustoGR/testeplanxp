@@ -12,8 +12,8 @@ export default function WhatWeDo(){
     return(
     <div className="pages" id="what-we-do">
         <div className="text-whatwedo">
-            <h1 className="background-button" id="page-backgroundnumber">02.</h1>
-            <h3 className='menu-textbuttons' id="pagetitle">/Oque fazemos</h3>
+            <h1 className="backgroundnumber page-backgroundnumber">02.</h1>
+            <h3 className='pagetitle page-pagetitle'>/Oque fazemos</h3>
             <h1 className='title-text'>/Games</h1>
             <h1 className='title-text' id='subtitle'>Desenvolvimento de games digitais.</h1>
             <h3 className='title-text' id='subtitletwo'>Empresa especialista em desenvolvimento games digitais e gamificação.</h3>
