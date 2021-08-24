@@ -72,3 +72,102 @@
     width: 100%;
     height: 400px;
 }
+@media screen and (max-width:1300px){
+    .text-cardnews{
+        height: 60%;
+    }
+    .imagecut{
+        border: 25px solid;
+        border-color: rgb(30, 30, 30) rgb(30, 30, 30) transparent transparent;
+    }
+    #container-headernews{
+        width: 70%;
+    }
+    #news{
+        padding-top: 5%;
+    }  
+}
+@media screen and (max-width:1024px){
+    .text-cardnews{
+        height: 70%;
+    }
+}
+@media screen and (max-width:768px){
+    .cards-news{
+        flex: none;
+        width:100vw;
+        height: 100%;
+        scroll-snap-align: start;
+        -webkit-overflow-scrolling: touch;
+        overflow-y: hidden;
+    }
+    .titlecardnews{
+        font-size: 20px;
+    }
+    .text-cardnews .text{
+        font-size: 18px;
+    }
+    .ball{
+        display: block;
+        border: solid ;
+        border-color: white;
+        background-color: transparent;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        margin: 5px;
+    }
+    .ballwhite{
+        background-color: white;
+    }
+    .cards-news .link{
+        margin-bottom: 50px;
+    }
+    #news{
+        padding-left: 0;
+        padding-top: 80px;
+    }
+    #container-headernews{
+        padding-left: 15px;
+    }
+    #linkheader{
+        width: 100%;
+        float: left;
+        margin:20px 0;
+        position: relative;
+    }
+    #grid-news{
+        position: relative;
+        display: flex;
+        width: 100vw;
+        height: 700px;
+        overflow: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+    }
+    #balls{
+        position: absolute;
+        top: calc(160px + 65vw);
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:600px){
+    #grid-news{
+        height: 550px;
+    }
+    #balls{
+        top: calc(160px + 70vw);
+    }
+}
+@media screen and (max-width:600px){
+    #balls{
+        top: calc(160px + 70vw);
+    }
+}
+@media screen and (max-width:330px){
+    #balls{
+        top: calc(160px + 80vw);
+    }
+}

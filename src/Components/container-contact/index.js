@@ -32,9 +32,9 @@ export default function contact(){
                     <div className="cards-contact" id='cardone'>
                         <h3 className='title-card'>Siga-nos</h3>
                         <p className="text textcontact">Fique sempre por dentro de todas as novidades da Plan XP e de todas empresas do Grupo Plan Marketing.</p>
-                        <Link className="link"><img alt="face" src={face} /></Link>
-                        <Link className="link"><img alt="insta" id="button-insta" src={insta} /></Link>
-                        <Link className="link"><img alt="youtube" src={youtube} /></Link>
+                        <Link className="link"><img className="socialmedia" alt="face" src={face} /></Link>
+                        <Link className="link"><img className="socialmedia" alt="insta" id="button-insta" src={insta} /></Link>
+                        <Link className="link"><img className="socialmedia" alt="youtube" src={youtube} /></Link>
                     </div>
                     <div className="cards-contact" id='cardtwo'>
                         <h3 className='title-card'><img alt="" src={shape19} />/RS</h3>

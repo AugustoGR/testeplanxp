@@ -12,6 +12,48 @@ import shape2 from '../../Assets/Shape2.svg';
 
 
 export default function News(){
+    function indicecarrossel(){
+        const card0 = document.getElementById('0');
+        const card1 = document.getElementById('1');
+        const card2 = document.getElementById('2');
+        const card3 = document.getElementById('3');
+        const card4 = document.getElementById('4');
+        const ball0 = document.getElementById('ball1');
+        const ball1 = document.getElementById('ball2');
+        const ball2 = document.getElementById('ball3');
+        const ball3 = document.getElementById('ball4');
+        const ball4 = document.getElementById('ball5');
+        if(card0.getBoundingClientRect().left<30&&card0.getBoundingClientRect().left>-30){
+            ball0.classList.add('ballwhite');
+        }
+        else{
+            ball0.classList.remove('ballwhite');
+        }
+        if(card1.getBoundingClientRect().left<30&&card1.getBoundingClientRect().left>-30){
+            ball1.classList.add('ballwhite');
+        }
+        else{
+            ball1.classList.remove('ballwhite');
+        }
+        if(card2.getBoundingClientRect().left<30&&card2.getBoundingClientRect().left>-30){
+            ball2.classList.add('ballwhite');
+        }
+        else{
+            ball2.classList.remove('ballwhite');
+        }
+        if(card3.getBoundingClientRect().left<30&&card3.getBoundingClientRect().left>-30){
+            ball3.classList.add('ballwhite');
+        }
+        else{
+            ball3.classList.remove('ballwhite');
+        }
+        if(card4.getBoundingClientRect().left<30&&card4.getBoundingClientRect().left>-30){
+            ball4.classList.add('ballwhite');
+        }
+        else{
+            ball4.classList.remove('ballwhite');
+        }
+    }
     return(
         <div className="pages" id="news">
                 <div id="container-headernews">
@@ -20,8 +62,8 @@ export default function News(){
                     <h1 className='title-text'>/Cases Games</h1>
                     <Link className="link" id="linkheader"><p className="link-text">CLIQUE AQUI PARA VER TODO O BLOG <img alt="" src={shape2} /></p></Link>
                 </div>
-                <div id='grid-news'>
-                    <div className="cards-news">
+                <div id='grid-news' onScroll={indicecarrossel}>
+                    <div className="cards-news" id='0'>
                         <div className='imgcardsnews'>
                             <img alt="" className="vrglasses" src={vrglasses} />
                             <div className="imagecut"></div>
@@ -34,7 +76,7 @@ export default function News(){
                         </div>
                         <Link className="link linkcardnews"><p className="link-text">SAIBA MAIS <img alt="" src={shape2} /></p></Link>
                     </div>
-                    <div className="cards-news">
+                    <div className="cards-news" id='1'>
                         <div className='imgcardsnews'>
                             <img alt="" className="vrglasses" src={vrglasses} />
                             <div className="imagecut"></div>
@@ -47,7 +89,7 @@ export default function News(){
                         </div>
                         <Link className="link linkcardnews"><p className="link-text">SAIBA MAIS <img alt="" src={shape2} /></p></Link>
                     </div>
-                    <div className="cards-news">
+                    <div className="cards-news" id='2'>
                         <div className='imgcardsnews'>
                             <img alt=""className="vrglasses" src={vrglasses} />
                             <div  className="imagecut"></div>
@@ -60,7 +102,7 @@ export default function News(){
                         </div>
                         <Link className="link linkcardnews"><p className="link-text">SAIBA MAIS <img alt="" src={shape2} /></p></Link>
                     </div>
-                    <div className="cards-news">
+                    <div className="cards-news" id='3'>
                         <div className='imgcardsnews'>
                             <img alt="" className="vrglasses" src={vrglasses} />
                             <div className="imagecut"></div>
@@ -73,7 +115,7 @@ export default function News(){
                         </div>
                         <Link className="link linkcardnews"><p className="link-text">SAIBA MAIS <img alt="" src={shape2} /></p></Link>
                     </div>
-                    <div className="cards-news">
+                    <div className="cards-news" id='4'>
                         <div className='imgcardsnews'>
                             <img alt="" className="vrglasses" src={vrglasses} />
                             <div className="imagecut"></div>
@@ -87,6 +129,13 @@ export default function News(){
                         <Link className="link linkcardnews"><p className="link-text">SAIBA MAIS <img alt="" src={shape2} /></p></Link>
                     </div>
                 </div>
+                <div id="balls">
+                        <div className="ball ballwhite" id="ball1"></div>
+                        <div className="ball" id="ball2"></div>
+                        <div className="ball" id="ball3"></div>
+                        <div className="ball" id="ball4"></div>
+                        <div className="ball" id="ball5"></div>
+                    </div>
             </div>
     )
 }

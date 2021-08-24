@@ -46,3 +46,36 @@
     padding: 10px 0;
     font-size: 14px;
 }
+
+@media screen and (max-width:1024px){
+    #what-we-do{
+        padding-top: 70px;
+    }
+    
+}
+@media screen and (max-width:768px){
+    .text-whatwedo{
+        width: 100%;
+        padding-right: 20px;
+    }
+    .grid-whatwedo{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        width: 100%;
+    }
+    .grid-whatwedo{
+        margin-top: 15px;
+    }
+    .cards-whatwedo{
+        padding-left: 0;
+    }
+    #what-we-do{
+        flex-direction: column;
+    }
+    #text-joystick, #text-joystick b{
+        font-size: 18px;
+    }
+    #text-joystick, #text-joystick b{
+        font-size: 13px;
+    }
+}

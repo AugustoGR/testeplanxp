@@ -36,7 +36,7 @@ export default function WhatWeDo(){
                 <div id="container-joysticksvg">
                    <img alt="" src={shape4} id="joysticksvg"/ >
                 </div>
-                <p id="text-joystick"><p>Experimente inovar com a </p><b className="boldtextcardfour">PlanXP</b> para <b className="boldtextcardfour">desenvolver os seus jogos digitais!</b></p>
+                <p id="text-joystick">Experimente inovar com a <b className="boldtextcardfour">PlanXP</b> para <b className="boldtextcardfour">desenvolver os seus jogos digitais!</b></p>
                 <Link className="link"><p className="link-text">ENTRE EM CONTATO AGORA MESMO <img alt="" src={shape2} /></p></Link>
             </div>
         </div>

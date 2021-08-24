@@ -58,3 +58,42 @@ b{
 .page-backgroundnumber{
     font-size: 80px;
 }
+.text, #text-joystick, #text-joystick b{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+@media screen and (max-width:1024px){
+   .text{
+       font-size: 11px;
+   }
+    
+}
+@media screen and (max-height:600px){
+    .pages{
+        height: auto;
+    }
+}
+@media screen and (max-width:768px){
+    .pages{
+        height: auto;
+        position: relative;
+        z-index: 10;
+    }
+}
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: rgb(30, 30, 30);
+}
+::-webkit-scrollbar-thumb{
+    background: #696969;
+}
+::-webkit-scrollbar-track{
+    height: auto;
+}
+#more:hover {
+    filter: brightness(80%);
+}
