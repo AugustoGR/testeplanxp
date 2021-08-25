@@ -13,7 +13,7 @@ import shape19 from '../../Assets/Shape19.svg';
 
 export default function contact(){
     return(
-        <div className="pages" id="contact">
+        <section className="pages" id="contact">
                 <div id="container-formcontact">
                     <div id="container-number">
                     <h1 className="backgroundnumber page-backgroundnumber">05.</h1>
@@ -78,6 +78,6 @@ export default function contact(){
                         <Link className="link"><p className="link-text">CONHEÇA <img alt="" src={shape2} /></p></Link>
                     </div>
                 </div>
-            </div>
+            </section>
     )
 }

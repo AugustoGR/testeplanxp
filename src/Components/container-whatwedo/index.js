@@ -10,7 +10,7 @@ import shape2 from '../../Assets/Shape2.svg';
 
 export default function WhatWeDo(){
     return(
-    <div className="pages" id="what-we-do">
+    <section className="pages" id="what-we-do">
         <div className="text-whatwedo">
             <h1 className="backgroundnumber page-backgroundnumber">02.</h1>
             <h3 className='pagetitle page-pagetitle'>/Oque fazemos</h3>
@@ -40,6 +40,6 @@ export default function WhatWeDo(){
                 <Link className="link"><p className="link-text">ENTRE EM CONTATO AGORA MESMO <img alt="" src={shape2} /></p></Link>
             </div>
         </div>
-    </div>
+    </section>
     )
 }

@@ -55,7 +55,7 @@ export default function News(){
         }
     }
     return(
-        <div className="pages" id="news">
+        <section className="pages" id="news">
                 <div id="container-headernews">
                     <h1 className="backgroundnumber page-backgroundnumber">03.</h1>
                     <h3 className='pagetitle page-pagetitle'>/Plan news</h3>
@@ -136,6 +136,6 @@ export default function News(){
                         <div className="ball" id="ball4"></div>
                         <div className="ball" id="ball5"></div>
                     </div>
-            </div>
+            </section>
     )
 }

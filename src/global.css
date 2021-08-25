@@ -84,16 +84,3 @@ b{
         z-index: 10;
     }
 }
-::-webkit-scrollbar{
-    width: 12px;
-    background-color: rgb(30, 30, 30);
-}
-::-webkit-scrollbar-thumb{
-    background: #696969;
-}
-::-webkit-scrollbar-track{
-    height: auto;
-}
-#more:hover {
-    filter: brightness(80%);
-}
